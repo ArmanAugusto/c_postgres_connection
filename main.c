@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "libpq_version.h"
-#include "db_server_version.h"
+#include "pg_items.h"
 
 int main(void) {
   get_libpq_version();
